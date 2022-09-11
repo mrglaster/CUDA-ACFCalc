@@ -64,7 +64,7 @@ Thanks to the autocorrelation function, it will be possible to determine the per
 
 Vladislav Novikov,
 Vadim Nechaev,
-Pristavka Egor
+Egor Pristavka
 
 
 ## Links 
