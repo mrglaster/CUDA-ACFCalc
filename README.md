@@ -62,8 +62,8 @@ Thanks to the autocorrelation function, it will be possible to determine the per
 
 ### Developed by:
 
-Vladislav Novikov,
 Vadim Nechaev,
+Vladislav Novikov,
 Egor Pristavka
 
 
