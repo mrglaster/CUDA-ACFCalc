@@ -15,7 +15,7 @@ Thanks to the autocorrelation function, it will be possible to determine the per
 
 ## Calculation Results 
 
-We found some errors there! We'll attach'em a bit later
+Check the .dat file in the "Results" folder
 
 ### Developed by:
 
