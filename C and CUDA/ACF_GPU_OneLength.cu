@@ -8,7 +8,7 @@
 #define SIGNAL_LENGTH_MIN 5
 #define SIGNAL_LENGTH_MAX 64
 
-
+/** Function calculating what we need*/
 __global__ void calculate_acf(uint64_t start_offset, uint64_t end, uint64_t *min_result_sidelobe_amp, uint64_t *result_signal, uint64_t n) {
     
     // Variable initialization
@@ -56,7 +56,7 @@ __global__ void calculate_acf(uint64_t start_offset, uint64_t end, uint64_t *min
     }
 }
 
-
+/**Does the signal's length correspond our requirements*/
 int is_goodlen(int n){
     if(n<SIGNAL_LENGTH_MIN || n>=SIGNAL_LENGTH_MAX){ 
         printf("Wrong signal length!"); 
@@ -65,17 +65,17 @@ int is_goodlen(int n){
     return 1;
 }
 
-
+/**Get start by binary length*/
 uint64_t get_start_byblen(int n) {
 	return 1ULL << (n - 1);
 }
 
-
+/**Get end by binary length*/
 uint64_t get_end_byblen(int n) {
 	return (1ULL << n) - 1ULL;
 }
 
-
+/**The main function*/
 int main() {
     
     //Signal Length. 
