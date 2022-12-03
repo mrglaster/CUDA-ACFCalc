@@ -1,4 +1,4 @@
-## Finding the length N signal with smallest ACF sidelobe using CUDA technology
+## Finding the length N signal with smallest ACF value using CUDA technology
 
 Programm for searching for the optimal signal using CUDA technology. The task of summer student practice for first-year students of the ISU FBCI faculty, 2022. 
 
