@@ -1,6 +1,6 @@
 ## Finding the length N signal with smallest ACF value using CUDA technology
 
-Programm for searching for the optimal signal using CUDA technology. The task of summer student practice for first-year students of the ISU FBCI faculty, 2022. 
+Programm for searching for the optimal signal using CUDA technology. 
 
 Purpose of the work: search for the optimal signal by its autocorrelation function, namely the sidelobe amplitude, using parallel computing using the CUDA (Compute Unified Device Architecture) technology developed by the Nvidia Corporation.
 To search for periodicity, an autocorrelation function will be used, which shows the dependence between the signal and its shifted copy on the magnitude of the time shift. For deterministic signals, the autocorrelation function is given by the following formula:
